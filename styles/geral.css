@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* DISPLAY */
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SPACING */
+.p-1 {
+    padding: 1rem;
+}
+
+/* SIZING */
+.h-4 {
+    height: 150px;
+}
+
+/* BORDER */
+.border-bottom {
+    border-bottom: 1px solid black;
+}
+
+.border-top {
+    border-top: 1px solid black;
+}
+
+/* GRID */
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+}
+
+/* CUSTOM */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-gray {
+    background-color: rgba(222, 222, 222, 0.227);
+}
+
+.picture {
+    background-color: white;
+}
+
+.rounded {
+    border-radius: 10px;
+    overflow: hidden;
+}
