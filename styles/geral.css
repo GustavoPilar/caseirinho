@@ -4,6 +4,32 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: rgb(240, 140, 140); /* Rosa principal */
+    --secondary-color: rgb(254, 188, 189); /* Rosa claro */
+    --background-color: rgb(240, 236, 225); /* Bege claro */
+    --accent-color: rgb(200, 180, 160); /* Bege mais escuro ajustado */
+    --neutral-color: rgb(239, 235, 224); /* Bege neutro */
+    --text-primary: rgb(80, 80, 80); /* Cinza escuro para textos principais */
+    --text-secondary: rgb(120, 120, 120); /* Cinza médio para textos secundários */
+    --text-highlight: rgb(240, 140, 140); /* Rosa principal para chamar atenção */
+    --text-light: rgb(255, 255, 255); /* Branco para textos sobre fundos escuros */
+  }
+
+header {
+    background-color: var(--secondary-color);
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-primary);
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-primary);
+}
+
 /* DISPLAY */
 .d-flex {
     display: flex;
@@ -12,13 +38,29 @@
 }
 
 /* SPACING */
+.p-middle {
+    padding: .5rem;
+}
+
 .p-1 {
     padding: 1rem;
 }
 
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
 /* SIZING */
 .h-4 {
-    height: 150px;
+    height: 9.375rem;
+}
+
+.h5 {
+    height: 12.5rem;
 }
 
 /* BORDER */
@@ -30,6 +72,11 @@
     border-top: 1px solid black;
 }
 
+.rounded {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
 /* GRID */
 .grid-2 {
     display: grid;
@@ -38,25 +85,43 @@
     gap: 1rem;
 }
 
-/* CUSTOM */
-.container {
-    width: 80%;
-    margin: auto;
+/* BACKGROUND */
+.bg-secundary {
+    background-color: var(--secondary-color);
+}
+
+/* TEXT */
+.uppercase {
+    text-transform: uppercase;
 }
 
 .text-center {
     text-align: center;
 }
 
-.bg-gray {
-    background-color: rgba(222, 222, 222, 0.227);
+/* CUSTOM */
+.container {
+    width: 80%;
+    margin: auto;
 }
 
-.picture {
-    background-color: white;
+.whatsapp-div {
+    background-color: #99C874;
 }
 
-.rounded {
-    border-radius: 10px;
-    overflow: hidden;
+.img-wpp {
+    margin-right: 1rem;
+}
+
+.shadow {
+    background-color: var(--primary-color);
+}
+
+.ingredients-list {
+    list-style-image: url('../assets/icons/svg/check.svg');
+}
+
+.ingredients-list li {
+    width: 5rem;
+    margin: 1rem auto;
 }
