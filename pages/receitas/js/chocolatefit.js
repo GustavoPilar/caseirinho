@@ -4,21 +4,20 @@ const price = document.getElementById('price');
 const ingredientsList = document.getElementById('ingredients');
 const coberturaTitle = document.getElementById('coberturaTitle');
 coberturaTitle.style.display = 'none';
-const cake = 'Bolo de Fubá com Goiabada';
+const cake = 'Bolo de Chocolate (FIT)';
 
 title.textContent = cake;
 titleCake.textContent = cake;
-price.textContent = 'R$ 18,90'
+price.textContent = 'PERGUNTAR VALOR'
 
 const ingredients = [
-    'Fubá' ,
     'Ovos',
-    'Farinha de Trigo',
-    'Açúcar',
-    'Óleo',
-    'Leite',
+    'Óleo de Côco', 
+    'Bananas', 
+    'Aveia em Flocos Finos', 
+    'Chocolate em pó (100% Cacau)',
     'Fermento em pó',
-    'Goiabada',
+    'Gotas de Chocolate Meio Amargo'
 ];
 
 for (let element of ingredients) {

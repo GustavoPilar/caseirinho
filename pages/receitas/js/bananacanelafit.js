@@ -4,21 +4,18 @@ const price = document.getElementById('price');
 const ingredientsList = document.getElementById('ingredients');
 const coberturaTitle = document.getElementById('coberturaTitle');
 coberturaTitle.style.display = 'none';
-const cake = 'Bolo de Fubá com Goiabada';
+const cake = 'Bolo de Banana com Canela (FIT)';
 
 title.textContent = cake;
 titleCake.textContent = cake;
-price.textContent = 'R$ 18,90'
+price.textContent = 'PERGUNTAR VALOR'
 
 const ingredients = [
-    'Fubá' ,
+    'Bananas',
     'Ovos',
-    'Farinha de Trigo',
-    'Açúcar',
-    'Óleo',
-    'Leite',
-    'Fermento em pó',
-    'Goiabada',
+    'Aveia em flocos',
+    'Fermento em Pó',
+    'Canela em pó'
 ];
 
 for (let element of ingredients) {

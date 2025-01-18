@@ -115,7 +115,7 @@ a {
 
 /* CUSTOM */
 .container {
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
@@ -135,9 +135,15 @@ a {
     list-style-image: url('../assets/icons/svg/check.svg');
 }
 
-.ingredients-list li {
-    width: 5rem;
+.ingredients-list li, .coberturas-list li {
+    max-width: 80%;
+    padding: .5rem;
     margin: 1rem auto;
+    border-bottom: solid 1px black;
+}
+
+.coberturas-list {
+    list-style: url(../assets/icons/svg/cobertura.svg);
 }
 
 .logo {
