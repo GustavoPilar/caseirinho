@@ -15,5 +15,16 @@ if (page != null) {
     loadScript(page);
 }
 else {
-    console.log('nenhum');
+    const title = document.getElementById('title');
+    const titleCake = document.getElementById('title-cake');
+    const price = document.getElementById('price');
+    const ingredientsList = document.getElementById('ingredients');
+
+    title.textContent = 'Em construção';
+    titleCake.textContent = 'Em construção';
+    price.textContent = 'R$ 0,00'
+
+    newli = document.createElement('li');
+    newli.textContent = 'vazio';
+    ingredientsList.append(newli);
 }

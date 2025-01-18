@@ -64,6 +64,10 @@ a {
     margin-bottom: 2rem;
 }
 
+.mt-1 {
+    margin-top: 1rem;
+}
+
 /* SIZING */
 .h-4 {
     height: 9.375rem;
