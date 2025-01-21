@@ -4,18 +4,14 @@ const price = document.getElementById('price');
 const ingredientsList = document.getElementById('ingredients');
 const coberturaTitle = document.getElementById('coberturaTitle');
 coberturaTitle.style.display = 'none';
-const cake = 'Bolo de Banana com Canela (FIT)';
+const cake = 'Bolo de Laranja';
 
 title.textContent = cake;
 titleCake.textContent = cake;
 price.textContent = 'PERGUNTAR VALOR'
 
 const ingredients = [
-    'Bananas',
-    'Ovos',
-    'Aveia em flocos',
-    'Fermento em Pó',
-    'Canela em pó'
+    'Vazio'
 ];
 
 for (let element of ingredients) {
