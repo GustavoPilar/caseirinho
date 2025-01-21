@@ -17,6 +17,7 @@
     --text-secondary: rgb(120, 120, 120); /* Cinza médio para textos secundários */
     --text-highlight: rgb(240, 140, 140); /* Rosa principal para chamar atenção */
     --text-light: rgb(255, 255, 255); /* Branco para textos sobre fundos escuros */
+    --background-color-green: rgb(153, 200, 116);
     --font-family-default: 'roboto', arial, helvetica, sans-serif;
   }
 
@@ -63,6 +64,10 @@ i {
     display: none;
 }
 
+.inline-block {
+    display: inline-block;
+}
+
 /* SPACING */
 .p-middle {
     padding: .5rem;
@@ -82,6 +87,10 @@ i {
 
 .mt-1 {
     margin-top: 1rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
 }
 
 /* SIZING */
@@ -140,7 +149,7 @@ i {
 }
 
 .whatsapp-div {
-    background-color: #99C874;
+    background-color: var(--background-color-green);
 }
 
 .img-wpp {
@@ -175,10 +184,23 @@ i {
 }
 
 .icon {
-    height: 3.5rem;
-    width: 3.5rem;
+    width: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navOptions {
     background-color: var(--secondary-color);
+}
+
+.show-more {
+    background-color: var(--background-color-green);
+    width: 5rem;
+    margin-top: .5rem;
+    border-radius: 10px;
+}
+
+.titleSection {
+    background-color: rgb(114, 194, 255);
 }
