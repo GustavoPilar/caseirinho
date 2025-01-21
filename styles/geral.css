@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--font-family-default);
 }
 
 :root {
@@ -14,6 +17,7 @@
     --text-secondary: rgb(120, 120, 120); /* Cinza médio para textos secundários */
     --text-highlight: rgb(240, 140, 140); /* Rosa principal para chamar atenção */
     --text-light: rgb(255, 255, 255); /* Branco para textos sobre fundos escuros */
+    --font-family-default: 'roboto', arial, helvetica, sans-serif;
   }
 
 header {
@@ -40,11 +44,23 @@ a {
     color: var(--text-primary);
 }
 
+i {
+    font-size: 2rem;
+}
+
 /* DISPLAY */
 .d-flex {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-none {
+    display: none;
 }
 
 /* SPACING */
@@ -75,6 +91,10 @@ a {
 
 .h5 {
     height: 12.5rem;
+}
+
+.w-full {
+    width: 100%;
 }
 
 /* BORDER */
@@ -148,13 +168,21 @@ a {
 
 .logo {
     border-radius: 50%;
-    height: 3rem;
-    width: 3rem;
+    height: 3.5rem;
+    width: 3.5rem;
     overflow: hidden;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 .icon {
     height: 3.5rem;
     width: 3.5rem;
+}
+
+.navOptions {
+    background-color: var(--secondary-color);
+}
+
+.navbar {
+    
 }
